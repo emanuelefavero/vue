@@ -1,16 +1,7 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import Hello from './components/Hello.vue'
 </script>
 
 <template>
-  <div class="container">
-    <HelloWorld msg="Ciao" />
-  </div>
+  <Hello greet="Ciao" />
 </template>
-
-<style scoped>
-/* ... */
-.container {
-  color: magenta;
-}
-</style>
