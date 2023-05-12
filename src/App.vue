@@ -3,6 +3,7 @@ import Hello from './components/Hello.vue'
 import Todo from './components/Todo.vue'
 import Html from './components/Html.vue'
 import HtmlAttributesVariables from './components/HtmlAttributesVariables.vue'
+import V_if from './components/V_if.vue'
 </script>
 
 <template>
@@ -10,4 +11,5 @@ import HtmlAttributesVariables from './components/HtmlAttributesVariables.vue'
   <Todo />
   <Html />
   <HtmlAttributesVariables />
+  <V_if />
 </template>
