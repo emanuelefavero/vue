@@ -6,6 +6,7 @@ import HtmlAttributesVariables from './components/HtmlAttributesVariables.vue'
 import V_if from './components/V_if.vue'
 import V_else_if from './components/V_else_if.vue'
 import V_on from './components/V_on.vue'
+import Ref from './components/Ref.vue'
 </script>
 
 <template>
@@ -16,4 +17,5 @@ import V_on from './components/V_on.vue'
   <V_if />
   <V_else_if />
   <V_on />
+  <Ref />
 </template>

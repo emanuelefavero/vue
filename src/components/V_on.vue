@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-// TIP: ref is similar of useState in React
 const color = ref('red')
 
 // TIP: we use .value to access the value of a ref
