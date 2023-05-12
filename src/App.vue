@@ -5,6 +5,7 @@ import Html from './components/Html.vue'
 import HtmlAttributesVariables from './components/HtmlAttributesVariables.vue'
 import V_if from './components/V_if.vue'
 import V_else_if from './components/V_else_if.vue'
+import V_on from './components/V_on.vue'
 </script>
 
 <template>
@@ -14,4 +15,5 @@ import V_else_if from './components/V_else_if.vue'
   <HtmlAttributesVariables />
   <V_if />
   <V_else_if />
+  <V_on />
 </template>
