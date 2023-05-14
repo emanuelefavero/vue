@@ -7,6 +7,7 @@ import V_if from './components/V_if.vue'
 import V_else_if from './components/V_else_if.vue'
 import V_on from './components/V_on.vue'
 import Ref from './components/Ref.vue'
+import Modifiers from './components/Modifiers.vue'
 </script>
 
 <template>
@@ -18,4 +19,5 @@ import Ref from './components/Ref.vue'
   <V_else_if />
   <V_on />
   <Ref />
+  <Modifiers />
 </template>
