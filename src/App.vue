@@ -8,6 +8,7 @@ import V_else_if from './components/V_else_if.vue'
 import V_on from './components/V_on.vue'
 import Ref from './components/Ref.vue'
 import Modifiers from './components/Modifiers.vue'
+import ConditionalRendering from './components/ConditionalRendering.vue'
 </script>
 
 <template>
@@ -20,4 +21,5 @@ import Modifiers from './components/Modifiers.vue'
   <V_on />
   <Ref />
   <Modifiers />
+  <ConditionalRendering />
 </template>
