@@ -9,6 +9,7 @@ import V_on from './components/V_on.vue'
 import Ref from './components/Ref.vue'
 import Modifiers from './components/Modifiers.vue'
 import ConditionalRendering from './components/ConditionalRendering.vue'
+import V_show from './components/V_show.vue'
 </script>
 
 <template>
@@ -22,4 +23,5 @@ import ConditionalRendering from './components/ConditionalRendering.vue'
   <Ref />
   <Modifiers />
   <ConditionalRendering />
+  <V_show />
 </template>
